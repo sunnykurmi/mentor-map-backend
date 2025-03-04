@@ -68,9 +68,6 @@ exports.sendmail = (req, res, next,filepath,formdata) => {
                 <p>I’m just one message away if you have any questions or need further assistance. I’m here to support you on this journey to top-tier universities, every step of the way.</p>
                 <b>Roadmap link : ${filepath}</b>
             </div>
-            <div class="footer">
-                <p>&copy; ${new Date().getFullYear()} Cross The Skylimits. All rights reserved.</p>
-            </div>
         </div>
     </body>
 </html>
