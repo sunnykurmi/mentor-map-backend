@@ -11,9 +11,7 @@ const { sendmail } = require("../utils/sendmail");
 const { sendtoken } = require("../utils/SendToken");
 
 exports.homepage = catchError(async (req, res, next) => {
-  const allcities  = await citymodel.find().populate("studentsjoined").exec();
-  const allpartners = await partner.find().exec();
-  res.json({ message: "homepage",allcities , allpartners });
+  res.json({ message: "homepage" });
 });
 
 
